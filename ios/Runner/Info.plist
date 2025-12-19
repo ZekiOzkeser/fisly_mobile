@@ -28,6 +28,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Fisly needs camera access to scan receipts.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Fisly needs photo library access to select receipts.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
