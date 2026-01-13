@@ -1,6 +1,6 @@
 {
-    "name": "fisly_mobile",
-    "short_name": "fisly_mobile",
+    "name": "fisly",
+    "short_name": "fisly",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
