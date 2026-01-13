@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959021808734",
+    "project_id": "fislymobile",
+    "storage_bucket": "fislymobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959021808734:android:b856aafb732670d8b6c8cf",
+        "android_client_info": {
+          "package_name": "com.fisly.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPzGkSKC3YIC8T2UsRcAEPty24E8PrWFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

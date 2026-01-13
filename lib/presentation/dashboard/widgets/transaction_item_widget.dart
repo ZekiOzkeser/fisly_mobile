@@ -183,7 +183,7 @@ class TransactionItemWidget extends StatelessWidget {
                     ),
                     SizedBox(height: 0.5.h),
                     Text(
-                      DateFormat('dd MMM yyyy, HH:mm', 'tr_TR').format(date),
+                      _formatDate(date),
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: theme.colorScheme.onSurfaceVariant.withValues(
                           alpha: 0.7,
@@ -199,5 +199,13 @@ class TransactionItemWidget extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String _formatDate(DateTime date) {
+    try {
+      return DateFormat('dd MMM yyyy, HH:mm', 'tr_TR').format(date);
+    } on Exception {
+      return DateFormat('dd MMM yyyy, HH:mm').format(date);
+    }
   }
 }
